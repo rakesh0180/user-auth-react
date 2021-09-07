@@ -12,23 +12,13 @@ function MovieCard(props) {
   };
 
   return (
-    // <div
-    //   className="row"
 
-    // >
-    // <div className="row">
     <div className="col-md-5">
       <div className="card border-danger bg-info text-white mb-3">
         <div className="card-body">
           <h4 className="card-title">Name = {movieName}</h4>
           <h4>rating = {rating}</h4>
-          {/* <button
-        onClick={() => {
-          handleRemoveMovie(id);
-        }}
-      >
-        delete
-      </button> */}
+
           <img
             className="text-end mb"
             onClick={() => {

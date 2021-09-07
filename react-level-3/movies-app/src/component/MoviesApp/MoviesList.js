@@ -7,7 +7,6 @@ const MoviesList = (props) => {
   const movies = useSelector((state) => {
     return state.movies;
   });
-  // const [data, setData] = useState("");
   const [searchInput, setSearchInput] = useState("");
   const [sortBy, setSortBy] = useState("");
   const [list, setList] = useState([]);
